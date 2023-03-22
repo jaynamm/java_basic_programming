@@ -19,5 +19,10 @@ public class OperationsPromotionExample {
         int intvlaue4 = intValue3 / 4; // 파이썬이었다면 float 타입으로 반환
         System.out.println("intvlaue4 = " + intvlaue4);
 
+        int intValue5 = 10;
+//        int intValue6 = intValue5 / 4.0;
+
+        double doubleValue = intValue5 / 4.0;
+        System.out.println("doubleValue = " + doubleValue);
     }
 }
